@@ -11,7 +11,7 @@ class desk :
     def desk_available(self,nowtime):
         if nowtime > self.start_time+self.duration:
             self.avail = True
-            return True
+            return Truesssssssssssssss
         else:
             self.avail = False
             return False
